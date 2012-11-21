@@ -1,0 +1,31 @@
+.photo {
+	width: 80px;
+	height: 80px;
+	top: 0;
+	left: 1;
+	float: left;
+	position: absolute;
+}
+
+.source {
+	position: absolute;
+	right: 4px;
+	bottom: 0;
+	width: 24px;
+	height: 24px;
+}
+
+
+.facebook {
+	background-image: url("images/facebook.png");
+	background-repeat: no-repeat;
+}
+
+.twitter {
+	background-image: url("images/twitter.png");
+	background-repeat: no-repeat;
+}
+
+#result_container {
+	margin-top: 10px;
+}

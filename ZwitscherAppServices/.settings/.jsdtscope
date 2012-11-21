@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="client/js/jqm-datebox.core.min.js|client/js/jqm-datebox.mode.slidebox.min.js|client/js/jquery-1.7.2.min.js|client/js/jquery-ui-1.8.21.custom.min.js|client/js/jquery.mobile-1.1.0.js|client/js/jquery.mobile-1.1.0.min.js|client/js/jquery.mobile.datebox.i18n.de.utf8.js|client/js/jquery.ui.core.min.js|client/js/jquery.ui.datepicker.min.js" kind="src" path="WebContent"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

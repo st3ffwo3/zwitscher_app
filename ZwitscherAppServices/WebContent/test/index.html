@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ZwitscherApp - HTML5 Services</title>
+	</head>
+	<body>
+		<ul>
+			<li><a href="http://23.23.183.141/json/feed?keyword=test&untilDate=2012-06-13 16:10:59&count=25">JSON Feed Test (Keyword + UntilDate + Count)</a></li>
+			<li><a href="http://23.23.183.141/json/feed?keyword=test&untilDate=2012-06-13 16:10:59">JSON Feed Test (Keyword + UntilDate)</a></li>
+			<li><a href="http://23.23.183.141/json/feed?keyword=test&count=25">JSON Feed Test (Keyword + Count)</a></li>
+			<li><a href="http://23.23.183.141/json/feed?keyword=test">JSON Feed Test (Keyword)</a></li>
+		</ul>
+	
+		<ul>
+			<li><a href="http://23.23.183.141/feed?keyword=test&untilDate=2012-06-13 16:10:59&count=25">ATOM Feed Test (Keyword + UntilDate + Count)</a></li>
+			<li><a href="http://23.23.183.141/feed?keyword=test&untilDate=2012-06-13 16:10:59">ATOM Feed Test (Keyword + UntilDate)</a></li>
+			<li><a href="http://23.23.183.141/feed?keyword=test&count=25">ATOM Feed Test (Keyword + Count)</a></li>
+			<li><a href="http://23.23.183.141/feed?keyword=test">ATOM Feed Test (Keyword)</a></li>
+		</ul>
+	
+		<ul>
+			<li><b>POST</b> http://23.23.183.141/json/feed</li>
+			<li><code>{ "author":"Franz JSON-Test", "message":"Hier kommt mal was für die db.", "link":"http://www.google.de", "source":"ZWITSCHER", "objectType":"MESSAGE" }</code></li>
+		</ul>
+	</body>
+</html>
